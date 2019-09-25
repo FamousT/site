@@ -6,14 +6,19 @@
 
 }*/
 
-/*
+
 .navbar img{
     height:30px;
-    width:40px;
-    margin-left: 100px;
+    width:60px;
+    margin-left: 10px;
 
 }
 
+.demo .img{
+    justify-content: center;
+}
+
+/*
 .navbar .navbar-brand{
     margin-left:10px;
 }
@@ -22,7 +27,11 @@
     margin-left:400px;
 }
 
-.navbar .collapse .nav-item{
+.navbar .collapse .nav-item {
+    margin-left:20px;
+}
+
+.navbar .collapse .nav-item {
     margin-left:20px;
 }
 
@@ -81,13 +90,17 @@
     border-bottom: 5px solid red;
 }
 
+.container .head h2{
+
+}
+
 
 ..container .row {
     padding-bottom:20px;
 }
 
 .container .row .card img{
-    height:300px;
+    height:250px;
     width:100%;
 }
 
@@ -175,7 +188,9 @@
 }
 
 .container-fluid .container .content p{
-    padding-top:100px;
+    padding-top:70px;
+    font-style: oblique;
+
 }
 .head .bar, .head2 .bar, .head3 .bar, .head4 .bar{
     height: 5px;
