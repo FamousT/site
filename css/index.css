@@ -7,6 +7,19 @@
 }*/
 
 
+.preloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    z-index: 999;
+    background: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('cere.gif');
+}
+
 .navbar img{
     height:30px;
     width:60px;
@@ -100,7 +113,7 @@
 }
 
 .container .row .card img{
-    height:250px;
+    height:300px;
     width:100%;
 }
 
@@ -188,7 +201,7 @@
 }
 
 .container-fluid .container .content p{
-    padding-top:70px;
+    padding-top:25px;
     font-style: oblique;
 
 }
@@ -202,9 +215,9 @@
   }
 
   .container .about .row img {
-      height:230px;
-      width:230px;
-      border-radius: 50%;
+      height:250px;
+      width:100%;
+      /*border-radius: 50%;*/
       margin-left:40px;
 
       display:block;
@@ -214,9 +227,9 @@
 }
   
 .container .about .row .round:hover img {
-    -ms-transform:scale(1.2);
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
+    -ms-transform:scale(1.0);
+    -webkit-transform:scale(1.0);
+    transform:scale(1.0);
     }
 
 .container .about .row p {
@@ -280,7 +293,7 @@
 
 
   .ftco-section {
-      margin-top:100px !important;
+      margin-top:150px !important;
 
   }
 
@@ -308,7 +321,7 @@
   }
 
   .head3{
-      margin-top:100px;
+      margin-top:140px;
       margin-bottom:20px;
 
   }
@@ -348,16 +361,18 @@
 
   .container-fluid .head4{
       text-align: center;
-      margin-top: 0px;
+      margin-top: 20px;
+      color: white;
   }
 
   .container .head4{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 20px;
+    padding-top:40px;
 }
 
   .graphics{
-      margin-top:80px;
+      margin-top:10px;
   }
 
   .graphics .head4{
@@ -379,4 +394,14 @@
 .graphics .third img:hover{
     transform:scale(1.1); 
     cursor: zoom-in;
+}
+
+.container .row .animation1 p{
+    padding:50px;
+}
+
+.services{
+    margin-top:60px;
+    height:475px;
+
 }
