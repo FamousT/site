@@ -430,6 +430,17 @@
     border-bottom: 5px solid red;
 }
 
+
+.card4 img{
+    width:100%;
+    height: 370px;
+}
+
+.card4{
+    border-bottom: 5px solid red;
+}
+
+
 .container .card3 .card_body .card_text{
     font-size: 8px;
 }
@@ -441,6 +452,6 @@
 
   .container .row .text_middle2 {
     background-color: rgb(226, 226, 226);
-    height: 455px;
+    height: 555px;
   }
 
