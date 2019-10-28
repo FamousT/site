@@ -389,10 +389,10 @@
    
 }
 
-.graphics .third img:hover{
+/*.graphics .third img:hover{
     transform:scale(1.1); 
     cursor: zoom-in;
-}
+} */
 
 .container .row .animation1 p{
     padding:50px;
