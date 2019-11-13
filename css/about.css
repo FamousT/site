@@ -8716,7 +8716,7 @@ h1, h2, h3, h4, h5,
 .services {
   width: 100%;
   display: block;
-  padding: 30px;
+  padding-top: 30px;
   background: #fff;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
